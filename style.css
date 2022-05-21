@@ -1,0 +1,17 @@
+.float-end {
+    font-size: 10px;
+}
+.nav-link:hover {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 870px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }    
+    #about {
+        display: block;
+    }
+}
+
