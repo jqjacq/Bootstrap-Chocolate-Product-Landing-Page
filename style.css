@@ -1,17 +1,50 @@
+footer {
+    display: inline-block;
+}
+img {
+    padding: 5px;
+}
 .float-end {
     font-size: 10px;
 }
 .nav-link:hover {
     font-weight: bold;
 }
-
-@media only screen and (max-width: 870px) {
-    img {
-        width: 150px;
-        height: 150px;
-    }    
-    #about {
-        display: block;
+#description {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@media only screen and (max-width: 1158px) {
+    img{ 
+        width: 200px;
+        height: 200px;
     }
 }
+@media only screen and (max-width: 958px) {
+    img{ 
+        width: 175px;
+        height: 175px;
+    }
+}
+@media only screen and (max-width: 860px) {
+    img {
+        width: 130px;
+        height: 130px;
+    }    
+}
+@media only screen and (max-width: 660px) {
+    img {
+        width: 125px;
+        height: 125px;
+    }    
+}
 
+@media only screen and (max-width: 570px) {
+    img {
+        width: 75px;
+        height: 75px;
+    }
+    #description {
+        font-size: 12px;
+    }
+}
